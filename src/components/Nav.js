@@ -1,7 +1,18 @@
 import React from "react";
 
-function Hello(){
-  return <h1>Welcome to React</h1>
+function Nav(){
+  return (
+    <nav>
+      <header>
+        My Logo
+      </header>
+      <aside>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+      </aside>
+    </nav>
+  )
 }
 
-export default Hello
+export default Nav

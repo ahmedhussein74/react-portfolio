@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 
 function Nav(){
   return (
@@ -9,9 +9,9 @@ function Nav(){
           My Logo
         </header>
         <aside className="w-50 d-flex justify-content-evenly">
-          <Link to="/" className="text-white text-decoration-none">Home</Link>
-          <Link to="/about" className="text-white text-decoration-none">About</Link>
-          <Link to="/contact" className="text-white text-decoration-none">Contact</Link>
+          <NavLink to="/" className="rounded-pill">Home</NavLink>
+          <NavLink to="/about" className="rounded-pill">About</NavLink>
+          <NavLink to="/contact" className="rounded-pill">Contact</NavLink>
         </aside>
       </nav>
       <Outlet />

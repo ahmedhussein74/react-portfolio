@@ -2,10 +2,11 @@ import React from "react";
 
 function Home(){
   return (
-    <main className="home">
-      <h1>
+    <main className="home text-center">
+      <h1>Home Page</h1>
+      <p>
         This is our website explore the world with us
-      </h1>
+      </p>
     </main>
   )
 }

@@ -1,6 +1,7 @@
 import './App.css'
 import React from 'react';
 import Nav from './components/Nav';
+import Blog from './components/blog';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="blog" element={<Blog />} />
         </Route>
       </Routes>
       </div>

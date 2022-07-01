@@ -12,6 +12,7 @@ function Nav(){
           <NavLink to="/" className="rounded-pill">Home</NavLink>
           <NavLink to="/about" className="rounded-pill">About</NavLink>
           <NavLink to="/contact" className="rounded-pill">Contact</NavLink>
+          <NavLink to="/blog" className="rounded-pill">Blog</NavLink>
         </aside>
       </nav>
       <Outlet />

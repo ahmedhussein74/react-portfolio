@@ -10,7 +10,7 @@ function Skills(){
   }, []);
   return (
     <>
-      <section className="skills bg-dark rounded mx-auto text-white overflow-hidden" data-aos={"fade-left"}>
+      <section className="skills bg-dark rounded mx-auto text-white overflow-hidden" data-aos={"zoom-in-up"}>
         <div>HTML</div>
         <div>CSS</div>
         <div>SASS</div>

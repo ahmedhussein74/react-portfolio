@@ -86,13 +86,14 @@ nav a:hover{
 }
 
 .projects div{
-  height: 90px;
+  height: 80px;
 }
 .projects img{
-  width: 60px;
+  width: 90px;
   height: 60px;
+  object-fit: cover;
 }
 .projects div a{
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
 }

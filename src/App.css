@@ -59,3 +59,9 @@ nav a:hover{
 .skills div:hover{
   background-position: left;
 }
+
+.info{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px 0;
+}

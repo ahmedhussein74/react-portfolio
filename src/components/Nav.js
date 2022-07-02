@@ -4,7 +4,7 @@ import { Outlet, NavLink } from "react-router-dom";
 function Nav(){
   return (
     <>
-      <nav className="mx-auto mt-3 mb-5 rounded-pill bg-dark d-flex justify-content-evenly align-items-center overflow-hidden">
+      <nav className="mx-auto my-3 rounded-pill bg-dark d-flex justify-content-evenly align-items-center overflow-hidden">
           <NavLink to="/contact"><i className="fas fa-envelope"></i></NavLink>
           <NavLink to="/skills"><i className="fas fa-check-square"></i></NavLink>
           <NavLink to="/"><i className="fas fa-home-alt"></i></NavLink>
